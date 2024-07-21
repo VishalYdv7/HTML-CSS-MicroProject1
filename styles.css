@@ -1,0 +1,123 @@
+body {
+    margin: 10px;
+    font-family: 'Inter';
+    background: #FFCD9E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: space-between;
+    text-align: left;
+    padding: 10px;
+    width: 90%;
+}
+
+.content-text{
+    padding:10px;
+}
+
+.content h1 {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+    color:#282828;
+    margin-bottom: 0.5em;
+}
+
+.content p {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    color:#484848;
+}
+.content h4 {
+    color:#282828;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: left;
+
+}
+.email-container {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 90%;
+    height: 50px;
+}
+
+.email-container input[type="email"] {
+    padding: 10px;
+    font-size: 20px;
+    border: 4px solid #000000;
+    border-radius: 8px;
+    width: 50%;
+    height: 60%;
+}
+
+button {
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #282828;
+    width: 30%;
+    height: 120%;
+}
+
+.illustration {
+    padding: 10px;
+}
+.illustration img{
+    width: 100%;
+}
+
+.free {
+    padding-left: 40px;
+    margin-top: 10px;
+    font-size: 0.8em;
+    color: #FFFFFF;
+}
+
+
+.foot {
+    display: flex;
+    flex-direction: row;
+    background: #282828;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.foot-left{
+    padding-left: 140px;
+    width: 50%;
+    align-items: left;
+    text-align: left;
+}
+.foot-right{
+    padding-right: 200px;
+    width: 50%;
+    align-items: right;
+    text-align: right;
+}
+
+.foot ul {
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
